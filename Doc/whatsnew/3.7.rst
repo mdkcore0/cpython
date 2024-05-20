@@ -171,7 +171,8 @@ on a per-module basis in Python 3.7 using a :mod:`__future__` import::
 
     from __future__ import annotations
 
-It will become the default in Python 3.10.
+The behavior of this will be changed when :pep:`649` arrives.
+It will probably become the default in Python 3.14.
 
 .. seealso::
 
